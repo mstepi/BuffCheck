@@ -2,22 +2,24 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Items for the checkbox list
     const items = [
-        "ボスキラー",
-        "高級ボスキラー秘薬",
-        "伝説の英雄秘薬",
+        "リンクスキル",
+        "ユニオンバフ",
+        "ユニオンプリセット",
+        "星ポーション",
         "高級武器鍛錬",
-        "ユニオン",
+        "ファミリア",
+        "シードリング",
         "エキストリーム緑",
         "エキストリーム赤",
         "MVPスーパーパワーバフ",
         "ギルドの祝福",
-        "マシュールのプレゼント気象効果",
-        "10段階〇〇秘薬",
+        "マシュール",
+        "10段階薬",
         "りんご飴",
-        "無敵の秘薬",
         "特殊コア（一撃必殺）",
-        "シードリング",
-        "ファミリア"
+        "メダルチョコ",
+        "みなぎりドリンク",
+        "ONOFFスキル",
     ];
 
     const checkboxList = document.getElementById("checkbox-list");
