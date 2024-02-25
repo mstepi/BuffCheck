@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cross-style.css">
+    <title>チェックボックス</title>
+</head>
+<body>
+
+    <header>
+        <h1>十字旅団チェック</h1>
+      </header>
+
+    <div id="checkbox-container">
+        <label><input type="checkbox" class="checkbox" data-id="1"><span class="location">スケルトンの古城入口</span> <span class="monster">スケルトン</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="2"><span class="location">熱砂地帯</span> <span class="monster">キンクラン</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="3"><span class="location">雨雲の公園</span> <span class="monster">ママフィクシ</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="4"><span class="location">冬の峡谷</span> <span class="monster">ペペクイーン</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="5"><span class="location">黒光の庭園郊外</span> <span class="monster">クリムゾンロッカー</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="6"><span class="location">天のテラス</span> <span class="monster">オモチャ黒騎士</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="7"><span class="location">狐の丘</span> <span class="monster">おキツネ様</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="8"><span class="location">時間の分かれ道</span> <span class="monster">タイマー</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="9"><span class="location">クーラン草原入口</span> <span class="monster">ジェノ</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="10"><span class="location">沈黙の砂漠</span> <span class="monster">デウ</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="11"><span class="location">研究所後門(ジェニミスト)</span> <span class="monster">ルルモ</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="12"><span class="location">研究所後門(アルカドノ)</span> <span class="monster">Dロイド</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="13"><span class="location">妖怪の山</span> <span class="monster">神仙妖怪</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="14"><span class="location">天桃の果母園</span> <span class="monster">ムカデ</span></label><br>
+        <label><input type="checkbox" class="checkbox" data-id="15"><span class="location">マスターモリョンの隠れ家入口</span> <span class="monster">マスターモリョン</span></label><br>
+        <button onclick="resetCheckboxes()">リセット</button>
+    </div>
+
+
+
+    <div id="expand-trigger">
+        <p onclick="toggleExpandableContent" id="expand-trigger-text">クリックして展開</p>
+        <div id="expandable-content" style="display: none;">
+            <label><input type="checkbox"><span>ゼロ</span></label><br>
+            <label><input type="checkbox"><span>カンナ</span></label><br>
+            <label><input type="checkbox"><span>クロスボウマスター</span></label><br>
+            <label><input type="checkbox"><span>カデナ</span></label><br>
+            <label><input type="checkbox"><span>ファントム</span></label><br>
+            <label><input type="checkbox"><span>ビーストテイマー</span></label><br>
+            <label><input type="checkbox"><span>ルミナス</span></label><br>
+            <label><input type="checkbox"><span>ソウルマスター</span></label><br>
+            <label><input type="checkbox"><span>ハヤト</span></label><br>
+            <label><input type="checkbox"><span>ユエ</span></label><br>
+            <label><input type="checkbox"><span>アラン</span></label><br>
+            <label><input type="checkbox"><span>デーモンスレイヤー</span></label><br>
+            <label><input type="checkbox"><span>ゼノン</span></label><br>
+            <label><input type="checkbox"><span>デーモンアヴェンジャー</span></label><br>
+            <label><input type="checkbox"><span>ナイトロード</span></label><br>
+            <label><input type="checkbox"><span>ストライカー</span></label><br>
+            <label><input type="checkbox"><span>アークメイジ 雷氷</span></label><br>
+            <button onclick="resetExpandableContentCheckboxes()">リセット</button>
+        </div>
+    </div>
+
+    <script src="cross-script.js"></script>
+</body>
+</html>
