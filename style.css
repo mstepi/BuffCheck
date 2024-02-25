@@ -21,7 +21,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;  /* これが追加されました */
+    align-items: center;     /* これが追加されました */
   }
   
   nav li {
@@ -35,6 +36,8 @@ body {
     text-decoration: none;
     color: #fff;
     transition: background-color 0.3s;
+    width: 100%;             /* これが追加されました */
+    box-sizing: border-box;   /* これが追加されました */
   }
   
   nav a:hover {
