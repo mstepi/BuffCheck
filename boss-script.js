@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "メダルチョコ",
         "みなぎりドリンク",
         "ONOFFスキル",
+        "イベントバフ(VIP)",
     ];
 
     const checkboxList = document.getElementById("checkbox-list");
